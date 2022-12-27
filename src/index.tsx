@@ -10,9 +10,13 @@ import {
 interface prop {
   style: any
   iconColors: string
+  menuImage: any
+  image1: any
+  image2: any
+  image3: any
 }
 
-export const AnimatedFloatingButton: React.FC<prop> = ({ iconColors, style }: prop) => {
+export const AnimatedFloatingButton: React.FC<prop> = ({ iconColors, style, menuImage, image1, image2, image3 }: prop) => {
 
   let animation = new Animated.Value(0)
   let open = true
@@ -81,22 +85,22 @@ export const AnimatedFloatingButton: React.FC<prop> = ({ iconColors, style }: pr
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <TouchableWithoutFeedback >
         <Animated.View style={[styles.second, heart]}>
-          <Image source={require('../images/like.png')} style={{ height: 20, width: 20, tintColor: iconColors }} />
+          <Image source={image3} style={{ height: 20, width: 20, tintColor: iconColors }} />
         </Animated.View>
       </TouchableWithoutFeedback>
       <TouchableWithoutFeedback>
         <Animated.View style={[styles.second, thumb]}>
-          <Image source={require('../images/love.png')} style={{ height: 20, width: 20, tintColor: iconColors }} />
+          <Image source={image2} style={{ height: 20, width: 20, tintColor: iconColors }} />
         </Animated.View>
       </TouchableWithoutFeedback>
       <TouchableWithoutFeedback>
         <Animated.View style={[styles.second, pin]}>
-          <Image source={require('../images/pin.png')} style={{ height: 20, width: 20, tintColor: iconColors }} />
+          <Image source={image1} style={{ height: 20, width: 20, tintColor: iconColors }} />
         </Animated.View>
       </TouchableWithoutFeedback>
       <TouchableWithoutFeedback onPress={() => togglemenu()}>
         <Animated.View style={[styles.button, style, rotation]}>
-          <Image source={require('../images/plus.png')} style={{ height: 15, width: 15, tintColor: 'black'}} />
+          <Image source={menuImage} style={{ height: 15, width: 15, tintColor: 'black'}} />
         </Animated.View>
       </TouchableWithoutFeedback>
     </View>
