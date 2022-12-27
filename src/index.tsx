@@ -16,7 +16,7 @@ interface prop {
   image3: any
 }
 
-export const AnimatedFloatingButton: React.FC<prop> = ({ iconColors, style, menuImage, image1, image2, image3 }: prop) => {
+export const AnimatedFloatingButton = ({ iconColors, style, menuImage, image1, image2, image3 }: prop) => {
 
   let animation = new Animated.Value(0)
   let open = true
