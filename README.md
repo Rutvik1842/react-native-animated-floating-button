@@ -2,6 +2,9 @@
 
 animated button
 
+![My animated logo](./images/demo.png)
+
+
 ## Installation
 
 ```sh
