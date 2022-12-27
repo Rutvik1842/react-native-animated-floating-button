@@ -2,8 +2,7 @@
 
 animated button
 
-<!-- ![My animated logo](./images/demo.png) -->
-<img src="./images/demo.png" width="200" hight="200" title="hover text">
+<img src="./images/demo.png" style="border:5px;" width="200" hight="200" title="hover text">
 
 ## Installation
 
