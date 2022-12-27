@@ -12,12 +12,11 @@ npm install react-native-animated-floating-button
 
 
 ```js
-import { multiply } from 'react-native-animated-floating-button';
+import { AnimatedFloatingButton } from 'react-native-animated-floating-button'
 
 // ...
 
-const result = multiply(3, 7);
-```
+<AnimatedFloatingButton iconColors={'lightblue'} style={{backgroundColor: 'lightblue'}} />```
 
 ## Contributing
 
