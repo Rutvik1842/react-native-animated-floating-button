@@ -16,7 +16,7 @@ import { AnimatedFloatingButton } from 'react-native-animated-floating-button'
 
 // ...
 
-<AnimatedFloatingButton iconColors={'lightblue'} style={{backgroundColor: 'lightblue'}} />```
+<AnimatedFloatingButton iconColors={'lightblue'} style={{backgroundColor: 'lightblue'}} />
 
 ## Contributing
 
