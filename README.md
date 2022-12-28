@@ -3,7 +3,7 @@
 animated button
 
 <!-- ![animated image example]() -->
-<img src="https://github.com/Rutvik1842/react-native-animated-floating-button/blob/main/images/demo.png" style="border:5px;" width="200" hight="200" title="hover text">
+<img src="https://github.com/Rutvik1842/react-native-animated-floating-button/blob/main/images/demo.png" style="border:5px;" width="200" hight="200" title="react-native-animated-floating-button">
 
 ## Installation
 
