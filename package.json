@@ -40,14 +40,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rutvik1842/react-native-animated-floating-button.git"
+    "url": "git+https://github.com/developertrt/React-Native-animate-floating-button"
   },
-  "author": "Rutvik Patel <rutvikp@thirdrocktechkno.com> (https://github.com/Rutvik1842)",
+  "author": "thirdrocktechkno <developer@thirdrocktechkno.com> (https://github.com/developertrt)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rutvik1842/react-native-animated-floating-button/issues"
+    "url": "https://github.com/developertrt/React-Native-animate-floating-button/issues"
   },
-  "homepage": "https://github.com/Rutvik1842/react-native-animated-floating-button#readme",
+  "homepage": "https://github.com/developertrt/React-Native-animate-floating-button#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
