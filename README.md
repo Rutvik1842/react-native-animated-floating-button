@@ -2,7 +2,8 @@
 
 animated button
 
-<img src="./images/demo.png" style="border:5px;" width="200" hight="200" title="hover text">
+![animated image example](./images/demo.png)
+<!-- <img src="./images/demo.png" style="border:5px;" width="200" hight="200" title="hover text"> -->
 
 ## Installation
 
